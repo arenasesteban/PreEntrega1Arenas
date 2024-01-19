@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Signika Negative', sans-serif; 
+    background-color: white;      
+}
+
+header {
+    height: 60px;
+    position: relative;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+body img {
+    width: 600px;
+    height: 300px;
+}
+
+.logo-container {
+    display: inline;
+    position: absolute;
+    left: 30px;
+}
+
+.logo-container img {
+    width: 55px;
+    height: 40px;
+}
+
+.logo-container h1 {
+    display: inline;
+    font-size: 50px;
+    color: #050505;
+    margin-left: px;
+}
+
+.navbar-container {
+    display: inline;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+
+.navbar-container a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #050505;
+    border-bottom: 2px solid #050505;
+    margin: 6px;
+}
+
+.navbar-container a:hover {
+    background-color: #81818144;
+    font-weight: 700;
+    border-bottom: 4px solid #050505;
+}
+
+footer {
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    margin-top: 20px;
+    background-color: #cfcfcf;
+    color: #050505;
+    text-align: center;
+}
+
+.social-media {
+    padding: 10px;
+}
+
+.social-media h3 {
+    font-size: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-media a img {
+    width: 20px;
+    height: 20px;
+}
+
+.copyright {
+    padding: 10px;
+    background-color: #c0c0c0;
+}
