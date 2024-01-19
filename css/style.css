@@ -3,20 +3,20 @@
     padding: 0;
 }
 
-body {
-    
-    font-family: 'Signika Negative', sans-serif; 
-    background-color: white;      
+body { 
+    font-family: 'Signika Negative', sans-serif;
+    background-color: whitesmoke;
+    position: relative;
 }
 
 header {
+    background-color: white;
     height: 60px;
     position: relative;
     padding: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
-    margin-bottom: 20px;
 }
 
 body img {
@@ -30,16 +30,15 @@ body img {
     left: 30px;
 }
 
-.logo-container img {
+.logo-image {
     width: 55px;
     height: 40px;
 }
 
-.logo-container h1 {
+.logo-name {
     display: inline;
     font-size: 50px;
     color: #050505;
-    margin-left: px;
 }
 
 .navbar-container {
@@ -49,45 +48,48 @@ body img {
     bottom: 25px;
 }
 
-.navbar-container a {
-    font-size: 20px;
+a {
     text-decoration: none;
-    color: #050505;
-    border-bottom: 2px solid #050505;
     margin: 6px;
+    color: #050505;
 }
 
-.navbar-container a:hover {
-    background-color: #81818144;
-    font-weight: 700;
+.link-pages {
+    font-size: 20px;
+    border-bottom: 2px solid #050505;
+}
+
+.link-pages:hover {
+    background-color: hsla(0, 0%, 51%, 0.267);
+    font-weight: bold;
     border-bottom: 4px solid #050505;
 }
 
+main {
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 footer {
-    height: 100px;
+    position: absolute;
+    width: 100%;
+    background-color: #cfcfcf;
+    text-align: center;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
-    margin-top: 20px;
-    background-color: #cfcfcf;
-    color: #050505;
-    text-align: center;
 }
 
-.social-media {
+.description-container {
     padding: 10px;
 }
 
-.social-media h3 {
+.description-container h2{
     font-size: 30px;
 }
 
-.social-media a {
-    text-decoration: none;
-    margin: 5px;
-}
-
-.social-media a img {
+.link-social-media img {
     width: 20px;
     height: 20px;
 }
