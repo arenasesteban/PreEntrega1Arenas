@@ -210,7 +210,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    background-color: #2f3132;
+    background-color: #1c1c1c;
 }
 
 .title-container h1 {
@@ -262,4 +262,24 @@ section {
     width: 100%;
     font-size: 16px;
     padding: 5px;
+}
+
+.button-form {
+    margin: 10px 0;
+}
+
+.button-form button {
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-form button:hover {
+    background-color: #2f3132;
 }
