@@ -194,12 +194,74 @@ section {
     padding: 20px 220px 20px 220px;
 }
 
+
+/* Discografia */
+#discrography {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(../images/banner_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.album-container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+}
+
+.album-1 .subtitle-border, .album-2 .subtitle-border{
+    border-color: white;
+}
+
+.album-1, .album-2, .album-link {
+    width: 400px;
+}
+
+.album-details {
+    display: flex;
+    padding: 10px;
+}
+
+.album-details p {
+    width: 50%;
+    margin: 5px;
+}
+
+.album-details p:first-child {
+    font-weight: bold;
+    border-right: 1px solid grey;
+}
+
+#top {
+    width: 100%;
+}
+
+.title-2-container {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #2f3132;
+}
+
 /* Contactanos */
 #form {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -210,7 +272,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    background-color: #1c1c1c;
+    background-color: #000;
 }
 
 .title-container h1 {
@@ -219,7 +281,7 @@ section {
 }
 
 .title-container p {
-    font-size: 24px;
+    font-size: 18px;
     color: white;
 }
 
@@ -235,14 +297,14 @@ section {
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
 }
 
-.form-title {
+.subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-.form-title-border {
+.subtitle-border {
     width: 50px;
     border-top: 2px solid black;
 }
@@ -274,6 +336,7 @@ section {
     color: white;
     font-size: 14px;
     font-weight: bold;
+    text-transform: uppercase;
     padding: 12px;
     margin: 5px 10px;
     border: none;
