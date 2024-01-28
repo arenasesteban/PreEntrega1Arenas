@@ -270,6 +270,47 @@ footer {
     height: 25px;
 }
 
+/* GALERIA */
+
+#galery {
+    width: 100%;
+    background-color: #1c1c1c;
+}
+
+.galery-container {
+    display: flex;
+    padding: 30px;
+}
+
+.galery-container img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .4);
+    margin-top: 5px;
+}
+
+.column-images {
+    flex: 25%;
+    padding: 5px;
+}
+
+#interview {
+    width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+}
+
+.video-container iframe {
+    box-shadow: 0 0 16px rgba(0, 0, 0, .4);
+    margin: 20px;
+}
+
 /* CONTACTO */
 #form {
     width: 100%;
